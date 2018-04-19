@@ -101,14 +101,14 @@ Operators:
 Address
 -------
 
-``address``: Holds a 20 byte value (size of an Ethereum address). Address types also have members and serve as a base for all contracts.
-
+``address``: 保持20字节值（以太坊地址的大小）。 地址类型也有成员，并作为所有合同的基础。
+             
 Operators:
 
 * ``<=``, ``<``, ``==``, ``!=``, ``>=`` and ``>``
 
-.. note::
-    Starting with version 0.5.0 contracts do not derive from the address type, but can still be explicitly converted to address.
+.. 注释::
+    从版本0.5.0开始，合同不在来自地址类型，但仍然可以显式转换为地址。
 
 .. _members-of-addresses:
 
